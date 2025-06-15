@@ -1,0 +1,21 @@
+# .gitignore
+
+# Data files
+*.csv
+*.csv.gz
+*.parquet
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+
+# Python environment
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+.venv/
+
+ny_taxi_postgres_data/
